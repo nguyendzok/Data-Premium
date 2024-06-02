@@ -3098,8 +3098,7 @@ ${c[0][g][0]}`
             en: "English",
             vi: "Ti\u1EBFng Vi\u1EC7t",
             "zh-Hant": "\u4E2D\u6587\uFF08\u7E41\u9AD4\uFF09",
-            "zh-Hans": "\u4E2D\u6587\uFF08\u7B80\u4F53\uFF09",
-            und: "@VirgilClyne"
+            "zh-Hans": "\u4E2D\u6587\uFF08\u7B80\u4F53\uFF09"
           };
           n.translationLanguages = Object.entries(i).map(([a, c]) => new Ve({
             languageCode: a,
@@ -3239,7 +3238,7 @@ ${c[0][g][0]}`
     if (t) {
       let e = b.response.bodyBytes;
       b.timeStart("fromBinary"), t.fromBinary(e), b.timeEnd("fromBinary"), b.timeStart("modify"), await t.modify(), b.timeEnd("modify"), t.done()
-    } else b.msg("YouTube Enhance", "\u811A\u672C\u9700\u8981\u66F4\u65B0", "\u5916\u90E8\u8D44\u6E90 -> \u5168\u90E8\u66F4\u65B0"), b.exit()
+    } else b.msg("YouTube Premium", "\u0053\u0063\u0072\u0069\u0070\u0074\u0020\u006e\u0065\u0065\u0064\u0073\u0020\u0075\u0070\u0064\u0061\u0074\u0069\u006e\u0067", "\u0045\u0078\u0074\u0065\u0072\u006e\u0061\u006c\u0020\u0052\u0065\u0073\u006f\u0075\u0072\u0063\u0065\u0073 -> \u0055\u0070\u0064\u0061\u0074\u0065\u0020\u0041\u006c\u006c"), b.exit()
   }
   cr().catch(t => {
     b.log(t.toString())
