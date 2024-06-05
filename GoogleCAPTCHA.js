@@ -1,11 +1,3 @@
-/*
-[Script]
-Google CAPTCHA = type=http-response,pattern=^https:\/\/www\.google\.com(\.[a-z]+|)\/search\?q=,requires-body=1,debug=0,script-path=https://raw.githubusercontent.com/Avatricetim/CST/main/GoogleCAPTCHA.js,max-size=0,timeout=10,ability=http-client-policy,argument=^(🇸🇬|🇭🇰|HK|Singapore|Hong|SG|US|🇺🇸|坡|港|美|狮城|)\s.*\d+$
-
-[MITM]
-hostname = www.google.com*
-
-*/
 let ret = {};
 
 (async () => {
