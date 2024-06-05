@@ -11,8 +11,6 @@ let ret = {};
             return n && new RegExp(typeof $argument == 'string' ? $argument : "").test(n)
         });
         console.log(`[INFO]: Use policy ${JSON.stringify(selected, null, 2)}`);
-        delete $request.headers.cookie;
-        delete $request.headers.Cookie;
         const http = [
             new Promise((r, e) => setTimeout(() => e('Timeout'), 5000)),
             ...selected.map(
